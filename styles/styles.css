@@ -1,0 +1,71 @@
+/* resetting font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* -------------- */
+/* svg color setting */
+
+.svg-ico {
+    fill: #B68C5A;
+}
+.ico {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+/* banner */
+.banner {
+    height: 700px;
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+/* footer bg setting */
+footer{
+    background-color: black;
+    color: white;
+}
+.card{
+    background-color: #fff0;
+}
+.list-group-item{
+    background-color: #fff0;
+    color: white
+}
+.menu-link{
+    display: flex;
+    align-items: center;
+}
+.menu-btn {
+    display: flex;
+    justify-content: center;
+}
+/* bootstrap re-write */
+.btn-outline-success {
+    background-color: #B68C5A;
+    --bs-btn-color: white;
+    --bs-btn-border-color: #B68C5A;
+    --bs-btn-hover-color: #B68C5A;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: #B68C5A;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #B68C5A;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+}
+.accordion {
+    --bs-accordion-btn-icon: url(../images/faq-plus-icon.png);
+}
+.navbar-toggler-icon {
+    background-image: url(../images/nav-icon.png);
+}
+.navbar-toggler {
+    border: none ;}
